@@ -8,6 +8,7 @@ export default function Header() {
       <nav aria-label="Main">
         <a href="#collection">Collection</a>
         <a href="#cougar">Cougar</a>
+        <a href="#clients">Clients</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
