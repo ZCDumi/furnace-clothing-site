@@ -3,6 +3,7 @@ import Hero from './components/Hero.jsx'
 import Gallery from './components/Gallery.jsx'
 import CougarLine from './components/CougarLine.jsx'
 import Worn from './components/Worn.jsx'
+import Clients from './components/Clients.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
         <Gallery />
         <CougarLine />
         <Worn />
+        <Clients />
       </main>
       <Footer />
     </>
