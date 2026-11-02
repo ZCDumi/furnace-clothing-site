@@ -7,6 +7,8 @@ export default function Header() {
       </a>
       <nav aria-label="Main">
         <a href="#collection">Collection</a>
+        <a href="#caps">Caps</a>
+        <a href="#tshirts">T-shirts</a>
         <a href="#cougar">Cougar</a>
         <a href="#clients">Clients</a>
         <a href="#contact">Contact</a>
