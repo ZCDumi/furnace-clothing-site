@@ -1,6 +1,8 @@
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import Gallery from './components/Gallery.jsx'
+import Caps from './components/Caps.jsx'
+import Tees from './components/Tees.jsx'
 import CougarLine from './components/CougarLine.jsx'
 import Worn from './components/Worn.jsx'
 import Clients from './components/Clients.jsx'
@@ -13,6 +15,8 @@ export default function App() {
       <main>
         <Hero />
         <Gallery />
+        <Caps />
+        <Tees />
         <CougarLine />
         <Worn />
         <Clients />
