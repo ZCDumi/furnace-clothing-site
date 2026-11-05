@@ -137,6 +137,11 @@ figcaption { display: grid; }
 .caps-copy h2 { font-size: clamp(3rem, 9vw, 7rem); }
 .caps-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 .caps-row img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.caps-more { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: clamp(1.5rem, 4vw, 2.5rem); }
+.caps-more figure { margin: 0; display: grid; gap: 0.6rem; }
+.caps-more img { width: 100%; height: auto; }
+.caps-more figcaption { display: grid; gap: 0.1rem; }
+.caps-more strong { font-weight: 600; }
 
 /* T-shirts */
 .tees { padding: clamp(3rem, 8vw, 6rem) var(--pad); }
@@ -162,7 +167,7 @@ figcaption { display: grid; }
   .site-header nav { gap: 1.1rem; }
   .hero { min-height: 70vh; }
   .hero-flame { right: -18%; height: 80%; bottom: 8%; opacity: 0.9; }
-  .cougar, .worn, .caps-top { grid-template-columns: 1fr; }
+  .cougar, .worn, .caps-top, .caps-more { grid-template-columns: 1fr; }
   .caps-lead { max-width: 320px; }
   .site-header { gap: 1rem; }
   .worn img { max-width: 240px; }
