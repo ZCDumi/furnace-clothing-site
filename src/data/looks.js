@@ -139,3 +139,23 @@ export const TEE_GROUPS = [
     ]
   }
 ]
+
+// Extra cap photos shown under the main cap gallery.
+export const MORE_CAPS = [
+  {
+    image: '/images/caps-camo.jpg',
+    w: 1200,
+    h: 540,
+    alt: 'Three camo caps with FURNACE stitched on the front in brown thread',
+    title: 'Camo caps',
+    text: 'Furnace stitched in brown thread on a woodland camo print.',
+  },
+  {
+    image: '/images/caps-bucket.jpg',
+    w: 1200,
+    h: 540,
+    alt: 'Four bucket hats in black, beige, grey and white with FURNACE or COUGAR stitched on the front',
+    title: 'Bucket hats',
+    text: 'Black, beige, grey and white, with Furnace or Cougar stitched on the front.',
+  },
+]
