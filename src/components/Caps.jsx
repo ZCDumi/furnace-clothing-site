@@ -1,4 +1,4 @@
-import { CAPS } from '../data/looks.js'
+import { CAPS, MORE_CAPS } from '../data/looks.js'
 
 export default function Caps() {
   const [lead, ...rest] = CAPS
@@ -9,8 +9,8 @@ export default function Caps() {
         <div className="caps-copy">
           <h2>Caps</h2>
           <p>
-            The Furnace cap comes in teal, with the flame and the Furnace name stitched
-            in silver thread and light stripes along the brim.
+            Caps and bucket hats from Furnace and Cougar. The teal cap has the flame and
+            the Furnace name in silver thread, with light stripes along the brim.
           </p>
         </div>
       </div>
@@ -21,6 +21,17 @@ export default function Caps() {
           </li>
         ))}
       </ul>
+      <div className="caps-more">
+        {MORE_CAPS.map((m) => (
+          <figure key={m.image}>
+            <img src={m.image} alt={m.alt} width={m.w} height={m.h} loading="lazy" />
+            <figcaption>
+              <strong>{m.title}</strong>
+              <span>{m.text}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
     </section>
   )
 }
