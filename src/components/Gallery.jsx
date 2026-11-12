@@ -6,9 +6,9 @@ export default function Gallery() {
       <h2>The collection</h2>
       <ul className="grid">
         {PRODUCTS.map((p) => (
-          <li key={p.id}>
+          <li key={p.id} className={p.wide ? 'wide' : undefined}>
             <figure>
-              <div className="tile-img">
+              <div className={p.wide ? 'tile-img tile-img-wide' : 'tile-img'}>
                 <img
                   src={p.image}
                   alt={`${p.name} in ${p.colour.toLowerCase()}`}
