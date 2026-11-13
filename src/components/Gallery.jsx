@@ -8,7 +8,7 @@ export default function Gallery() {
         {PRODUCTS.map((p) => (
           <li key={p.id} className={p.wide ? 'wide' : undefined}>
             <figure>
-              <div className={p.wide ? 'tile-img tile-img-wide' : 'tile-img'}>
+              <div className={p.wide ? 'tile-img tile-img-wide' : 'tile-img'} style={p.ratio ? { aspectRatio: p.ratio } : undefined}>
                 <img
                   src={p.image}
                   alt={`${p.name} in ${p.colour.toLowerCase()}`}
